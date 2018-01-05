@@ -1,3 +1,5 @@
+#Build with python 2.7.14
+
 def fun(spam):
     value2=''
     for value in spam:
