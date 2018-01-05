@@ -1,6 +1,6 @@
+#Build with python 2.7.14
 
-
-grid = [##XX #0	  #1   #2	#3	 #4	  #5	#YYYYY
+grid = [	#XXXXX	 #0   #1   #2	#3   #4	  #5	#YYYYY
 			['.', '.', '.', '.', '.', '.'], #0
 			['.', 'O', 'O', '.', '.', '.'], #1
 			['O', 'O', 'O', 'O', '.', '.'],	#2
@@ -31,7 +31,6 @@ for x in range(0,RowNum):
 		grid[6][0]
 		grid[7][0]
 		grid[8][0] 
-		...			'''
-
+				'''
 
 	print '\n'
