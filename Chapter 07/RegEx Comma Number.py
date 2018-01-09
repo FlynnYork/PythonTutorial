@@ -1,3 +1,5 @@
+#Build with Python 2.7.14
+
 import re
 text = '''  
         42
@@ -6,13 +8,19 @@ text = '''
         12,34,567
         1234 
                     '''
-                    
+
 numRegex = re.compile(r'(?<!\S)\d{1,3}(?:,\d{3})*(?!\S)')
 num = numRegex.findall(text)
 print num
 
+##################################################################
 
 
+'''
+
+Related reference pages:
+https://stackoverflow.com/questions/43171883/regex-that-matches-a-number-with-commas-for-every-three-digits
+'''
 ##################################################################
 '''
 Q:
